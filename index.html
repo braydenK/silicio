@@ -4,17 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Silicio</title>
+  <link href="src/styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <h1>WORKS!</h1>
+  <div>
+    <textarea></textarea>
+  </div>
+
   <script>
     // Install babel hooks in the renderer process.
     require('babel-register');
-    require('./scripts/main');
   </script>
-
-  <script src="src/main.js"></script>
+  <script src="src/renderer.js"></script>
 </body>
 
 </html>
