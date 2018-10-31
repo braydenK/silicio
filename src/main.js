@@ -10,7 +10,7 @@ function createWindow() {
   window.loadFile('index.html');
 
   // Opens DevTools
-  // window.webContents.openDevTools()
+  window.webContents.openDevTools();
 
   // Emitted when the window is closed.
   window.on('closed', () => {

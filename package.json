@@ -2,7 +2,7 @@
   "name": "silicio",
   "version": "1.0.0",
   "description": "a notetaking app",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron -r babel-register ."
   },
