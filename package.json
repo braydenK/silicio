@@ -4,16 +4,21 @@
   "description": "a notetaking app",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron -r babel-register ."
   },
   "author": "brayden killeen",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
+    "babel-register": "^6.26.0",
     "electron": "^3.0.6"
   }
 }
