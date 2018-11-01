@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Silicio</title>
+    <link href="src/styles.css" rel="stylesheet">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Silicio</title>
-  <link href="src/styles.css" rel="stylesheet">
-</head>
-
-<body>
-  <div>
-    <textarea></textarea>
-  </div>
-
-  <script>
-    // Install babel hooks in the renderer process.
-    require('babel-register');
-  </script>
-  <script src="src/renderer.js"></script>
-</body>
-
+  <body>
+      
+    <div id="editor">
+      <textarea id="input"></textarea>
+    </div>
+    <div>
+      <div id="output"></div>
+    </div>
+    <script>
+      // Install babel hooks in the renderer process.
+      require('babel-register');
+    </script>
+    <script src="src/renderer.js"></script>
+  </body>
 </html>
