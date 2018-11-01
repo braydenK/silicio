@@ -26,6 +26,8 @@ function parseHeader(line) {
   for (let i = 0; i < line.length; i++) {
     if (line[i] === '#') {
       headerSize++;
+    } else {
+      break;
     }
   }
 
